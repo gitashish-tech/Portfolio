@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ashish Gade | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <header>
     <div class="container">
       <h1>Ashish Gade</h1>
-      <p>IT Engineer | Full Stack Developer</p>
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -27,60 +26,94 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        I'm Ashish Gade, an IT Engineer from Sinhgad Institute of Technology, Lonavala.
-        I specialize in full stack development and have experience in Java, Angular, and Web Technologies.
+        I'm Ashish Gade, an IT Engineer from Sinhgad Institute of Technology. I focus on full-stack development and data-driven applications.
       </p>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
       <ul class="skills-list">
-        <li>Java (Core & Advanced)</li>
-        <li>J2EE, Servlets, JSP</li>
-        <li>Angular, HTML, CSS, JavaScript</li>
-        <li>MySQL, Git, GitHub</li>
-        <li>Data Analytics Fundamentals</li>
+        <li>Java</li>
+        <li>J2EE</li>
+        <li>Angular</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>REST APIs</li>
+        <li>Git & GitHub</li>
       </ul>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
+
       <div class="project-card" onclick="toggleDetails(this)">
-        <h3>🎥 College Project: Video Steganography using DCT Algorithm</h3>
-        <p>This final-year project embeds secret information into video frames using the Discrete Cosine Transform (DCT).</p>
+        <h3>Internal Task Tracker App</h3>
+        <p>Team-based task tracking app with login, updates, and dashboard.</p>
         <div class="project-details">
           <ul>
-            <li>Uses DCT to convert spatial data to frequency domain</li>
-            <li>Embeds secret data into the frequency coefficients</li>
-            <li>Protects sensitive data through video transmission</li>
-            <li>Implemented using Python and OpenCV libraries</li>
-            <li>Supports video encoding/decoding and extraction of hidden data</li>
+            <li>Angular, Node.js, Express, PostgreSQL</li>
+            <li>JWT login, task logs, status updates</li>
           </ul>
+          <a href="https://github.com/gitashish-tech/internal-task-tracker-app" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" onclick="toggleDetails(this)">
+        <h3>Permit Management Portal</h3>
+        <p>Automates permit requests using Angular and GraphQL.</p>
+        <div class="project-details">
+          <ul>
+            <li>Angular, GraphQL, Node.js, MongoDB</li>
+            <li>Dynamic search, filtering, job timelines</li>
+          </ul>
+          <a href="https://github.com/gitashish-tech/Permit-Management-Portal" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card" onclick="toggleDetails(this)">
+        <h3>Data Dashboard & Automation Tool</h3>
+        <p>Real-time reporting for marketing campaigns using Python.</p>
+        <div class="project-details">
+          <ul>
+            <li>Python, Flask, SQL, Power BI</li>
+            <li>Scheduled reports, KPIs, API endpoints</li>
+          </ul>
+          <a href="https://github.com/gitashish-tech/data-dashboard-automation" target="_blank">GitHub</a>
         </div>
       </div>
     </section>
 
     <section id="education">
       <h2>Education</h2>
-      <ul>
-        <li><strong>BE – IT Engineering</strong><br>Sinhgad Institute Of Technology, Lonavala (2020 – 2024)</li>
-        <li><strong>12th Science</strong><br>JB College, Ahmednagar – 61.69% (2018 – 2020)</li>
-      </ul>
+
+      <div class="education-item">
+        <strong>BE – IT Engineering</strong><br />
+        Sinhgad Institute Of Technology (2020–2024)
+      </div>
+
+      <div class="education-item">
+        <strong>12th Science</strong><br />
+        JB College, Ahmednagar (2018–2020) – 61.69%
+      </div>
+
       <h3>Certifications</h3>
-      <ul>
-        <li>Full Stack Development – Kiran Academy (2024)</li>
-        <li>Advanced Java – LinkedIn Learning</li>
-        <li>Data Analytics Foundation – LinkedIn Learning</li>
-        <li>Front-End Development – Coursera</li>
-      </ul>
+      <div class="courses">
+        <a href="https://drive.google.com/file/d/1pLSqiStDH7ZTABuyraDCUgV64eCVdeNh/view" target="_blank">Full Stack Development</a>
+        <a href="https://www.linkedin.com/learning/certificates/ff4887d3ded8f164f0ba83ba0c1d97261fc4cd49b6cbeea16c77f550f5172a64" target="_blank">Advanced Java</a>
+        <a href="https://www.linkedin.com/learning/certificates/89d8d37ed75ec76414a93374cf9e934c3dc94f6b08d2e443e2fddebaadb3f022" target="_blank">Data Analytics Foundation</a>
+        <a href="https://www.coursera.org/account/accomplishments/verify/WFQ28SAH3V5F" target="_blank">Front-End Development</a>
+      </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:ashishgade54@gmail.com">ashishgade54@gmail.com</a></p>
       <p>Phone: <a href="tel:+918408976943">+91 8408976943</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/ashish-gade" target="_blank" rel="noopener noreferrer">linkedin.com/in/ashish-gade</a></p>
-      <p>GitHub: <a href="https://github.com/gitashish-tech" target="_blank" rel="noopener noreferrer">github.com/gitashish-tech</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/ashish-gade" target="_blank">linkedin.com/in/ashish-gade</a></p>
+      <p>GitHub: <a href="https://github.com/gitashish-tech" target="_blank">github.com/gitashish-tech</a></p>
     </section>
   </main>
 
@@ -88,62 +121,7 @@
     <p>© 2025 Ashish Gade. All rights reserved.</p>
   </footer>
 
-  <script>
-    // Toggle project detail visibility
-    function toggleDetails(el) {
-      const details = el.querySelector('.project-details');
-      details.style.display = (details.style.display === "block") ? "none" : "block";
-    }
-
-    // Smooth scroll for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-
-    // Create "Back to Top" button
-    const backToTopBtn = document.createElement('button');
-    backToTopBtn.innerText = "⬆️ Top";
-    backToTopBtn.id = "backToTop";
-    backToTopBtn.style.cssText = `
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-      padding: 10px 16px;
-      background: #0074D9;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      display: none;
-      z-index: 1000;
-    `;
-    document.body.appendChild(backToTopBtn);
-
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        backToTopBtn.style.display = 'block';
-      } else {
-        backToTopBtn.style.display = 'none';
-      }
-    });
-
-    backToTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    // Optional: Welcome message on first load
-    window.onload = () => {
-      if (!localStorage.getItem("visited")) {
-        alert("Welcome to Ashish Gade's Portfolio! 🚀");
-        localStorage.setItem("visited", "true");
-      }
-    };
-  </script>
-
+  <button id="backToTop" title="Back to top">⬆️</button>
+  <script src="script.js"></script>
 </body>
 </html>
